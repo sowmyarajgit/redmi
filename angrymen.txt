@@ -1,0 +1,7 @@
+
+ami           = "ami-0022f774911c1d690"
+security_groups = [aws_security_group.web_sg.id]
+subnet_id   =   "subnet-0ce421c4a4cd88fbf"
+key_name = "webserver.ppk"
+instance_type = "t2.micro"
+Name = "Hello"
